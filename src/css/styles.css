@@ -1,0 +1,47 @@
+body {
+  font-family: cursive;
+  background: rgb(244, 201, 250);
+}
+.pLoading {
+  font-size: 25px;
+  color: greenyellow;
+}
+.wrapp {
+  margin: 0 auto;
+  width: 20%;
+}
+input {
+  background: rgb(108, 245, 245);
+  padding: 3px 7px;
+  color: #333;
+  border-radius: 2px;
+  border: 1px solid #666;
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid rgb(83, 206, 206);
+  border-bottom: 16px solid rgb(231, 159, 225);
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
